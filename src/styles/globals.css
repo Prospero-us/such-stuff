@@ -21,3 +21,27 @@
     @apply prose prose-lg max-w-none;
   }
 }
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+  
+  /* Ensure backdrop filters work */
+  @supports (backdrop-filter: blur(10px)) {
+    .backdrop-blur-lg {
+      backdrop-filter: blur(16px);
+    }
+  }
+  
+  /* Fallback for browsers without backdrop-filter support */
+  @supports not (backdrop-filter: blur(10px)) {
+    .backdrop-blur-lg {
+      background-color: rgba(255, 255, 255, 0.95);
+    }
+  }
+}
