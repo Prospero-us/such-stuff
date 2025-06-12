@@ -7,13 +7,6 @@
       "maxDuration": 10
     }
   },
-  "env": {
-    "NEXT_PUBLIC_SUPABASE_URL": "@supabase_url",
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@supabase_anon_key",
-    "SUPABASE_SERVICE_ROLE_KEY": "@supabase_service_key",
-    "CLAUDE_API_KEY": "@claude_api_key",
-    "DEFAULT_MODEL": "@claude_model"
-  },
   "buildCommand": "next build",
   "outputDirectory": ".next",
   "installCommand": "npm install",
