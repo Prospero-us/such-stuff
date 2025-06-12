@@ -13,6 +13,8 @@
     "@anthropic-ai/sdk": "^0.54.0",
     "@supabase/auth-helpers-nextjs": "^0.8.7",
     "@supabase/auth-helpers-react": "^0.4.2",
+    "@supabase/auth-ui-react": "^0.4.7",
+    "@supabase/auth-ui-shared": "^0.1.8",
     "@supabase/supabase-js": "^2.39.3",
     "@tiptap/extension-document": "^2.1.0",
     "@tiptap/extension-paragraph": "^2.1.0",
